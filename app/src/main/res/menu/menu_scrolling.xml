@@ -1,0 +1,38 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/menu"
+    tools:context="com.example.ann.ScrollingActivity"
+    >
+    <item
+        android:id="@+id/connect"
+        android:icon="@drawable/ic_baseline_perm_identity_24"
+
+        android:title="connect"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/add"
+        android:icon="@drawable/ic_baseline_playlist_add_24"
+        android:title="add"
+        app:showAsAction="ifRoom" />
+
+    <item android:id="@+id/search"
+        android:title="Search"
+        android:orderInCategory="100"
+        app:showAsAction="never" />
+    <item android:id="@+id/myProducts"
+        android:title="My Products"
+        android:orderInCategory="100"
+        app:showAsAction="never" />
+
+    <item android:id="@+id/disconnect"
+        android:title="Disconnect"
+        android:orderInCategory="100"
+        app:showAsAction="never" />
+
+    <item android:id="@+id/quit"
+        android:title="Quit"
+        android:orderInCategory="100"
+        app:showAsAction="never" />
+</menu>
